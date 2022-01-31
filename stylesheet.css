@@ -1,0 +1,63 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Monaco", sans-serif;
+    font-weight: normal;
+    box-sizing: border-box;
+}
+div {
+    overflow-wrap: break-word;
+}
+
+html {
+    background-image: url(LateNightInTheSixties.png); 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+body {
+    backdrop-filter: blur(5px);
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.container {
+    box-shadow: 2px 2px 20px 10px rgba(0,0,0,0.8);
+    margin-top: 80px;
+}
+
+.header {
+    width: 1000px;
+    background-color: black;
+    color: rgb(255, 196, 255);
+    padding: 10px;
+    font-size: 15px;
+}
+.body {
+    width: 1000px;
+    background-color: rgb(14, 14, 14);
+    color: rgb(255, 255, 255);
+    padding: 10px;
+}
+img {
+    width: 980px;
+}
+.body h1 {
+    background-color: black;
+    padding: 10px;
+    border-radius: 10px;
+    font-style: italic;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    color: rgb(159, 241, 255);
+    font-size: 22px;
+}
+.body p {
+    font-size: 20px;
+    margin-left: 20px;
+}
